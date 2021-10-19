@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>They Love Me Not</title>
+<body style="background: url('Images/love me not/hallway - Copy.png') center fixed; background-repeat: round; background-size: contain;"></body>
+<style>
+</style>
+</head>
+
+<body>
+	<audio autoplay id="sourcescape">
+		<source src="/Audio/screamstudio_soundscape.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	<script type="text/javascript">
+		var audio = document.getElementById('sourcescape');
+		setTimeout(function() {
+			console.log("playing");
+			audio.play();
+
+		},500);
+	</script>
+</body>
+</html>
